@@ -10,7 +10,7 @@ public class Mago extends Personaje {
 
     public void lanzarHechizo(Personaje objetivo) {
         if (mana >= 10) {
-            System.out.println(getNombre() + " lanza una bola de fuego");
+            System.out.println(getNombre() + " lanza una bola de agua");
             int golpe = getAtaque() + poderMagico;
             objetivo.recibirDano(golpe);
             mana -= 10;
