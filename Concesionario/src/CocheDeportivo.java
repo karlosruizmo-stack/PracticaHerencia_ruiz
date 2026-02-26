@@ -15,6 +15,6 @@ public class CocheDeportivo extends Coche {
 
     @Override
     public String toString() {
-        return " DEPORTIVO: " + super.toString() + " Potencia: " + caballos + " CV | Modo Carrera: " + (modoCarrera ? "SÍ" : "NO");
+        return " Deportivo: " + super.toString() + " Potencia: " + caballos + " Caballos , Modo Carrera: " + (modoCarrera ? "Si" : "No");
     }
 }
