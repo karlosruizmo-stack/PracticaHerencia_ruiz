@@ -3,7 +3,7 @@ public class Coche {
     private String modelo;
     private double precio;
     private int velMaxima;
-    private Rueda[] ruedas; // Composición
+    private Rueda[] ruedas; 
 
     public Coche(String marca, String modelo, double precio, int velMaxima) {
         this.marca = marca;
