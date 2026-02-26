@@ -1,6 +1,6 @@
 public class Rueda {
     private double desgaste;
-    private String estado;  
+    private String estado;
 
     public Rueda(double desgaste, String estado) {
         this.desgaste = desgaste;

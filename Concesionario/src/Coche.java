@@ -10,7 +10,6 @@ public class Coche {
         this.modelo = modelo;
         this.precio = precio;
         this.velMaxima = velMaxima;
-        // Inicializamos las 4 ruedas por defecto
         this.ruedas = new Rueda[]{
                 new Rueda(0.0, "Nuevo"), new Rueda(0.0, "Nuevo"),
                 new Rueda(0.0, "Nuevo"), new Rueda(0.0, "Nuevo")
