@@ -24,8 +24,8 @@ public class Coche {
     public String toString() {
         StringBuilder sb = new StringBuilder(getInfoBasica() + "\nEstado de ruedas:\n");
         for (int i = 0; i < ruedas.length; i++) {
-            sb.append(" Rueda ").append(i + 1).append(": ").append(ruedas[i]).append("\n");
-        }
+            sb.append("Rueda").append(i + 1).append(": ").append(ruedas[i]).append("\n");
+        }//Esto lo pregunte por ia
         return sb.toString();
     }
 }
