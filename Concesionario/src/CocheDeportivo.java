@@ -10,11 +10,11 @@ public class CocheDeportivo extends Coche {
 
     public void activarModoCarrera() {
         this.modoCarrera = true;
-        System.out.println("¡Modo Carrera ACTIVADO para el " + getInfoBasica() + "!");
+        System.out.println("Iniciar carrera " + getInfoBasica() + ".");
     }
 
     @Override
     public String toString() {
-        return "🏎️ DEPORTIVO: " + super.toString() + " Potencia: " + caballos + " CV | Modo Carrera: " + (modoCarrera ? "SÍ" : "NO");
+        return " DEPORTIVO: " + super.toString() + " Potencia: " + caballos + " CV | Modo Carrera: " + (modoCarrera ? "SÍ" : "NO");
     }
 }
